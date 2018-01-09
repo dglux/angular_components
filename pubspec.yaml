@@ -23,6 +23,15 @@ dependencies:
   quiver: '>=0.24.0 <0.26.0'
   sass_builder: ^1.1.0
   uuid: ^0.5.3
+dependency_overrides:
+  # Necessary with angular: 5.0.0-alpha+1 dependency.
+  analyzer: ^0.31.0-alpha.1
+  ##############################################################################
+  # Waiting for sass_builder to publish latest version. Remove before
+  # publishing.
+  sass_builder:
+    git: https://github.com/dart-league/sass_builder.git
+  ##############################################################################
 transformers:
 # build_runner users will not need these transformers and can skip the
 # compilation when running pub get by using the --no-precompile flag.
