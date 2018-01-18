@@ -13,7 +13,7 @@
 // https://material.io/guidelines/style/typography.html
 
 // Roboto font stack.
-$mat-font-family: Roboto, Noto, sans-serif;
+$mat-font-family: Roboto, Noto, sans-serif !default;
 
 // Font sizes
 $mat-font-size-display-4: 112px;
